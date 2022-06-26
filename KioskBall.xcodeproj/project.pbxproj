@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49B289AD2867FBA000BE27A5 /* KioskBallConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B289AC2867FBA000BE27A5 /* KioskBallConfig.swift */; };
+		49D128932868E19400D36C20 /* HelpWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D128922868E19400D36C20 /* HelpWebView.swift */; };
+		49E6032C2861521400F54246 /* KioskBall 29.png in Resources */ = {isa = PBXBuildFile; fileRef = 49E603282861521300F54246 /* KioskBall 29.png */; };
+		49E6032D2861521400F54246 /* KioskBall 20.png in Resources */ = {isa = PBXBuildFile; fileRef = 49E603292861521400F54246 /* KioskBall 20.png */; };
+		49E6032E2861521400F54246 /* KioskBall 58.png in Resources */ = {isa = PBXBuildFile; fileRef = 49E6032A2861521400F54246 /* KioskBall 58.png */; };
+		49E6032F2861521400F54246 /* KioskBall 40.png in Resources */ = {isa = PBXBuildFile; fileRef = 49E6032B2861521400F54246 /* KioskBall 40.png */; };
+		49E603332861523800F54246 /* KioskBall 152.png in Resources */ = {isa = PBXBuildFile; fileRef = 49E603302861523700F54246 /* KioskBall 152.png */; };
+		49E603342861523800F54246 /* KioskBall 80.png in Resources */ = {isa = PBXBuildFile; fileRef = 49E603312861523800F54246 /* KioskBall 80.png */; };
+		49E603352861523800F54246 /* KioskBall 167.png in Resources */ = {isa = PBXBuildFile; fileRef = 49E603322861523800F54246 /* KioskBall 167.png */; };
+		49E603372861524800F54246 /* KioskBall 76.png in Resources */ = {isa = PBXBuildFile; fileRef = 49E603362861524800F54246 /* KioskBall 76.png */; };
+		49E92D132860CE5E00F60458 /* KioskBallApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E92D122860CE5E00F60458 /* KioskBallApp.swift */; };
+		49E92D152860CE5E00F60458 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E92D142860CE5E00F60458 /* ContentView.swift */; };
+		49E92D172860CE6300F60458 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49E92D162860CE6300F60458 /* Assets.xcassets */; };
+		49E92D1A2860CE6300F60458 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49E92D192860CE6300F60458 /* Preview Assets.xcassets */; };
+		49E92D212860D08400F60458 /* SwiftWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E92D202860D08400F60458 /* SwiftWebView.swift */; };
+		49E92D262860E82D00F60458 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 49E92D252860E82D00F60458 /* Settings.bundle */; };
+		49E92D3F2861308200F60458 /* KioskLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49E92D3E2861308200F60458 /* KioskLaunchScreen.storyboard */; };
+		49EBC16728614DCF00D02B69 /* KioskBall_1024_AppStore.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49EBC16628614DCF00D02B69 /* KioskBall_1024_AppStore.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		49B289AC2867FBA000BE27A5 /* KioskBallConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KioskBallConfig.swift; sourceTree = "<group>"; };
+		49D128922868E19400D36C20 /* HelpWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpWebView.swift; sourceTree = "<group>"; };
+		49E60326286150BE00F54246 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		49E603282861521300F54246 /* KioskBall 29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KioskBall 29.png"; sourceTree = "<group>"; };
+		49E603292861521400F54246 /* KioskBall 20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KioskBall 20.png"; sourceTree = "<group>"; };
+		49E6032A2861521400F54246 /* KioskBall 58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KioskBall 58.png"; sourceTree = "<group>"; };
+		49E6032B2861521400F54246 /* KioskBall 40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KioskBall 40.png"; sourceTree = "<group>"; };
+		49E603302861523700F54246 /* KioskBall 152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KioskBall 152.png"; sourceTree = "<group>"; };
+		49E603312861523800F54246 /* KioskBall 80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KioskBall 80.png"; sourceTree = "<group>"; };
+		49E603322861523800F54246 /* KioskBall 167.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KioskBall 167.png"; sourceTree = "<group>"; };
+		49E603362861524800F54246 /* KioskBall 76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KioskBall 76.png"; sourceTree = "<group>"; };
+		49E92D0F2860CE5E00F60458 /* KioskBall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KioskBall.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		49E92D122860CE5E00F60458 /* KioskBallApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KioskBallApp.swift; sourceTree = "<group>"; };
+		49E92D142860CE5E00F60458 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		49E92D162860CE6300F60458 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		49E92D192860CE6300F60458 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		49E92D202860D08400F60458 /* SwiftWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftWebView.swift; sourceTree = "<group>"; };
+		49E92D232860D92400F60458 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		49E92D252860E82D00F60458 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		49E92D2C2861300F00F60458 /* KioskBall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KioskBall.png; sourceTree = "<group>"; };
+		49E92D3E2861308200F60458 /* KioskLaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = KioskLaunchScreen.storyboard; sourceTree = "<group>"; };
+		49EBC16628614DCF00D02B69 /* KioskBall_1024_AppStore.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = KioskBall_1024_AppStore.jpg; path = ../../../KioskBall_1024_AppStore.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49E92D0C2860CE5E00F60458 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49E60327286151E500F54246 /* New */ = {
+			isa = PBXGroup;
+			children = (
+				49E603362861524800F54246 /* KioskBall 76.png */,
+				49E603312861523800F54246 /* KioskBall 80.png */,
+				49E603302861523700F54246 /* KioskBall 152.png */,
+				49E603322861523800F54246 /* KioskBall 167.png */,
+				49E603292861521400F54246 /* KioskBall 20.png */,
+				49E603282861521300F54246 /* KioskBall 29.png */,
+				49E6032B2861521400F54246 /* KioskBall 40.png */,
+				49E6032A2861521400F54246 /* KioskBall 58.png */,
+			);
+			path = New;
+			sourceTree = "<group>";
+		};
+		49E92D062860CE5E00F60458 = {
+			isa = PBXGroup;
+			children = (
+				49E92D112860CE5E00F60458 /* KioskBall */,
+				49E92D102860CE5E00F60458 /* Products */,
+				49E92D222860D92400F60458 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		49E92D102860CE5E00F60458 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49E92D0F2860CE5E00F60458 /* KioskBall.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49E92D112860CE5E00F60458 /* KioskBall */ = {
+			isa = PBXGroup;
+			children = (
+				49E60326286150BE00F54246 /* Info.plist */,
+				49E92D122860CE5E00F60458 /* KioskBallApp.swift */,
+				49E92D142860CE5E00F60458 /* ContentView.swift */,
+				49E92D162860CE6300F60458 /* Assets.xcassets */,
+				49E92D2B2861300900F60458 /* Icons */,
+				49E92D182860CE6300F60458 /* Preview Content */,
+				49E92D202860D08400F60458 /* SwiftWebView.swift */,
+				49E92D252860E82D00F60458 /* Settings.bundle */,
+				49E92D3E2861308200F60458 /* KioskLaunchScreen.storyboard */,
+				49B289AC2867FBA000BE27A5 /* KioskBallConfig.swift */,
+				49D128922868E19400D36C20 /* HelpWebView.swift */,
+			);
+			path = KioskBall;
+			sourceTree = "<group>";
+		};
+		49E92D182860CE6300F60458 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		49E92D222860D92400F60458 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				49E92D232860D92400F60458 /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		49E92D2B2861300900F60458 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				49E60327286151E500F54246 /* New */,
+				49EBC16628614DCF00D02B69 /* KioskBall_1024_AppStore.jpg */,
+				49E92D2C2861300F00F60458 /* KioskBall.png */,
+				49E92D192860CE6300F60458 /* Preview Assets.xcassets */,
+			);
+			path = Icons;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49E92D0E2860CE5E00F60458 /* KioskBall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49E92D1D2860CE6300F60458 /* Build configuration list for PBXNativeTarget "KioskBall" */;
+			buildPhases = (
+				49E92D0B2860CE5E00F60458 /* Sources */,
+				49E92D0C2860CE5E00F60458 /* Frameworks */,
+				49E92D0D2860CE5E00F60458 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KioskBall;
+			productName = KioskBall;
+			productReference = 49E92D0F2860CE5E00F60458 /* KioskBall.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49E92D072860CE5E00F60458 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					49E92D0E2860CE5E00F60458 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 49E92D0A2860CE5E00F60458 /* Build configuration list for PBXProject "KioskBall" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				es,
+			);
+			mainGroup = 49E92D062860CE5E00F60458;
+			productRefGroup = 49E92D102860CE5E00F60458 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49E92D0E2860CE5E00F60458 /* KioskBall */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49E92D0D2860CE5E00F60458 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49E603372861524800F54246 /* KioskBall 76.png in Resources */,
+				49E603332861523800F54246 /* KioskBall 152.png in Resources */,
+				49EBC16728614DCF00D02B69 /* KioskBall_1024_AppStore.jpg in Resources */,
+				49E92D3F2861308200F60458 /* KioskLaunchScreen.storyboard in Resources */,
+				49E92D1A2860CE6300F60458 /* Preview Assets.xcassets in Resources */,
+				49E92D262860E82D00F60458 /* Settings.bundle in Resources */,
+				49E603342861523800F54246 /* KioskBall 80.png in Resources */,
+				49E6032C2861521400F54246 /* KioskBall 29.png in Resources */,
+				49E6032F2861521400F54246 /* KioskBall 40.png in Resources */,
+				49E603352861523800F54246 /* KioskBall 167.png in Resources */,
+				49E92D172860CE6300F60458 /* Assets.xcassets in Resources */,
+				49E6032D2861521400F54246 /* KioskBall 20.png in Resources */,
+				49E6032E2861521400F54246 /* KioskBall 58.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49E92D0B2860CE5E00F60458 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49B289AD2867FBA000BE27A5 /* KioskBallConfig.swift in Sources */,
+				49E92D212860D08400F60458 /* SwiftWebView.swift in Sources */,
+				49D128932868E19400D36C20 /* HelpWebView.swift in Sources */,
+				49E92D152860CE5E00F60458 /* ContentView.swift in Sources */,
+				49E92D132860CE5E00F60458 /* KioskBallApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		49E92D1B2860CE6300F60458 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		49E92D1C2860CE6300F60458 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49E92D1E2860CE6300F60458 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_ASSET_PATHS = "\"KioskBall/Preview Content\"";
+				DEVELOPMENT_TEAM = AVNV49PSU5;
+				ENABLE_PREVIEWS = YES;
+				EXCLUDED_ARCHS = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KioskBall/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = KioskLaunchScreen;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = maltobelli.KioskBall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		49E92D1F2860CE6300F60458 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_ASSET_PATHS = "\"KioskBall/Preview Content\"";
+				DEVELOPMENT_TEAM = AVNV49PSU5;
+				ENABLE_PREVIEWS = YES;
+				EXCLUDED_ARCHS = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KioskBall/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = KioskLaunchScreen;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = maltobelli.KioskBall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49E92D0A2860CE5E00F60458 /* Build configuration list for PBXProject "KioskBall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49E92D1B2860CE6300F60458 /* Debug */,
+				49E92D1C2860CE6300F60458 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49E92D1D2860CE6300F60458 /* Build configuration list for PBXNativeTarget "KioskBall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49E92D1E2860CE6300F60458 /* Debug */,
+				49E92D1F2860CE6300F60458 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49E92D072860CE5E00F60458 /* Project object */;
+}

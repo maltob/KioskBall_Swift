@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="ipad12_9rounded" orientation="portrait" layout="fullscreen" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="YZd-Hx-c0v">
+                                <rect key="frame" x="0.0" y="24" width="1024" height="1322"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L3i-wP-iyU">
+                                        <rect key="frame" x="0.0" y="0.0" width="1024" height="1282"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <color key="textColor" systemColor="labelColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eex-Zx-Enx">
+                                        <rect key="frame" x="0.0" y="1282" width="1024" height="40"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ayb-GD-WJW">
+                                                <rect key="frame" x="0.0" y="0.0" width="512" height="40"/>
+                                                <state key="normal" title="Home" image="house.fill" catalog="system"/>
+                                                <buttonConfiguration key="configuration" style="filled" image="house.fill" catalog="system">
+                                                    <color key="baseForegroundColor" systemColor="linkColor"/>
+                                                    <color key="baseBackgroundColor" systemColor="systemBackgroundColor"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k6F-pM-f3W">
+                                                <rect key="frame" x="512" y="0.0" width="512" height="40"/>
+                                                <state key="normal" title="Help" image="house.fill" catalog="system"/>
+                                                <buttonConfiguration key="configuration" style="filled" image="questionmark.circle.fill" catalog="system">
+                                                    <color key="baseForegroundColor" systemColor="linkColor"/>
+                                                    <color key="baseBackgroundColor" systemColor="systemBackgroundColor"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="F0d-us-FLP"/>
+                                            <constraint firstItem="k6F-pM-f3W" firstAttribute="width" secondItem="ayb-GD-WJW" secondAttribute="width" id="iRy-H1-FYK"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="L3i-wP-iyU" secondAttribute="trailing" id="AQ3-as-zbF"/>
+                                    <constraint firstAttribute="trailing" secondItem="eex-Zx-Enx" secondAttribute="trailing" id="B6A-jy-BS3"/>
+                                    <constraint firstAttribute="bottom" secondItem="eex-Zx-Enx" secondAttribute="bottom" id="ZKp-64-EOt"/>
+                                    <constraint firstItem="L3i-wP-iyU" firstAttribute="leading" secondItem="YZd-Hx-c0v" secondAttribute="leading" id="bk2-Aq-Bms"/>
+                                    <constraint firstItem="eex-Zx-Enx" firstAttribute="top" secondItem="L3i-wP-iyU" secondAttribute="bottom" id="iHg-jU-j8f"/>
+                                    <constraint firstItem="L3i-wP-iyU" firstAttribute="top" secondItem="YZd-Hx-c0v" secondAttribute="top" id="jtT-OM-qmK"/>
+                                    <constraint firstItem="eex-Zx-Enx" firstAttribute="leading" secondItem="YZd-Hx-c0v" secondAttribute="leading" id="oUj-px-osk"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Bcu-3y-fUS"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="bottom" secondItem="YZd-Hx-c0v" secondAttribute="bottom" id="7iG-Vs-xy2"/>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="trailing" secondItem="YZd-Hx-c0v" secondAttribute="trailing" id="dr7-Wf-SvZ"/>
+                            <constraint firstItem="YZd-Hx-c0v" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" id="p6h-vs-ncU"/>
+                            <constraint firstItem="YZd-Hx-c0v" firstAttribute="top" secondItem="Bcu-3y-fUS" secondAttribute="top" id="veL-ci-8bz"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="house.fill" catalog="system" width="128" height="106"/>
+        <image name="questionmark.circle.fill" catalog="system" width="128" height="121"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="linkColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
