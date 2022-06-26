@@ -54,7 +54,11 @@ struct ContentView: View {
                 
                 Button(action: {  if(showHelp) {
                     showHelp = false
-                }else{ wvModel.loadHomePage()}},label:{ HStack {
+                }else{ wvModel.loadHomePage()}
+                    wvModel.lastInteraction = Date.init()
+                    wvHelpModel.lastInteraction = Date.init()
+                    
+                },label:{ HStack {
                         Image(systemName: "house.fill")
                             .imageScale(.large)
                     Text("Home", comment:"Home button text")
@@ -76,6 +80,8 @@ struct ContentView: View {
                         }
                         showHelp = true
                     }
+                        wvModel.lastInteraction = Date.init()
+                        wvHelpModel.lastInteraction = Date.init()
                 },label:{
                     Image(systemName: "questionmark.circle.fill")
                         .imageScale(.large)
