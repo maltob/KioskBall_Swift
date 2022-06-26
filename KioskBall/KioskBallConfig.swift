@@ -17,7 +17,7 @@ class KioskBallConfig : ObservableObject {
     
 
     var homeURL: String = "https://kioskball.maltob.info/appwelcome"
-    var helpURL: String = "https://kioskball.maltob.info/help"
+    var helpURL: String = "https://kioskball.maltob.info/apphelp"
     @Published var allowedDomains: [String] = [String]()
     @Published var allowSubdomains: Bool = false
     
